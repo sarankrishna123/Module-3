@@ -24,8 +24,17 @@ To write a Python function that accepts a number **N** and creates a list contai
 ### PROGRAM
 
 ```
+reg no:212223070023
+name:Saran Krishna P S
+def even_numbers_up_to(N):
+    return [i for i in range(2, N + 1, 2)]
+print(even_numbers_up_to(10))
+
+
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/f2fc2c57-bcb5-416a-b713-6112e4742e3d)
 
 ### RESULT
+thus the above program is executed successfully.
