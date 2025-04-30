@@ -21,10 +21,23 @@ To write a Python function to accept a string, identify a word to be replaced, a
 ---
 
 ### PROGRAM
-
+Reg no:212223070023
+Name:Saran Krishna P S
 ```
+def replace_word_in_string():
+    original_string = input("Enter the original string: ")
+    word_to_replace = input("Enter the word to replace: ")
+    new_word = input("Enter the new word: ")
+    updated_string = original_string.replace(word_to_replace, new_word)
+    print("Updated string:", updated_string)
+
+replace_word_in_string()
+
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/07b08719-4303-4626-996c-9e2dab28dfbe)
 
 ### RESULT
+Thus the program is executed successfully
+
