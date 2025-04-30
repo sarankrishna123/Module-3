@@ -23,7 +23,22 @@ To write a Python program that matches a string containing an `'a'` followed by 
 ### PROGRAM
 
 ```
+reg no:212223070023
+name:Saran Krishna P S
+import re
+
+pattern = r'ab{2,3}'
+test_strings = ["ab", "abb", "abbb", "abbbb", "a", "b", "aabbb"]
+
+for s in test_strings:
+    if re.fullmatch(pattern, s):
+        print(f"Matched: {s}")
+    else:
+        print(f"Not matched: {s}")
+
 ```
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/be3778c6-2472-40df-8588-c800b2ce4077)
 
 ### RESULT
+Thus the above program is executed successfully.
