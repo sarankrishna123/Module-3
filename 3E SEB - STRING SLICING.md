@@ -23,8 +23,18 @@ To write a Python function that accepts a string and forms a new string by rever
 ### PROGRAM
 
 ```
+reg no:212223070023
+name:Saran Krishna P S
+def reverse_alternate_chars_substring(s):
+    substring = s[3:10]
+    reversed_alternate = substring[::-2]
+    print(reversed_alternate)
+reverse_alternate_chars_substring("abcdefghijklm")
+
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/d9f35c95-7dc5-4ba9-ae26-9896e3e4f804)
 
 ### RESULT
+thus the above program is executed successfully.
